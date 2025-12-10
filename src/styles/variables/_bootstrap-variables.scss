@@ -1,0 +1,37 @@
+$font-size-root: 62.5%;
+$font-size-base: 1.6rem;
+
+$enable-rfs: false;
+
+$font-family-sans-serif: var(--font-radio-canada);
+$font-family-base: var(--font-merriweather);
+
+$headings-font-family: $font-family-sans-serif;
+
+$body-bg: #FDF1E5;
+$body-color: #3F3F3F;
+
+$primary: #BF3265;
+
+$headings-font-weight: 700;
+
+$headings-resize-value: 5vw;
+
+$h1-font-size: clamp(3rem, $headings-resize-value, 4rem);
+$h2-font-size: clamp(2.6rem, $headings-resize-value, 3.1rem);
+$h3-font-size: clamp(2.2rem, $headings-resize-value, 2.6rem);
+
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: $spacer,
+    2: $spacer * 2,
+    3: $spacer * 3,
+    4: $spacer * 4,
+    5: $spacer * 5,
+    6: $spacer * 6,
+    7: $spacer * 7,
+    8: $spacer * 8,
+    9: $spacer * 9,
+    10: $spacer * 10,
+);
