@@ -6,10 +6,10 @@ import type { NextConfig } from 'next'
 const nextConfig: NextConfig = {
   output: 'standalone',
   sassOptions: {
-    // additionalData: `
-    //   @use "src/styles/_bootstrap.scss" as bs;
-    //   @use "src/styles/variables/_colors.scss";
-    // `,
+    additionalData: `
+      @use "src/styles/_bootstrap.scss" as bs;
+      @use "src/styles/variables/_colors.scss";
+    `,
   },
 }
 
